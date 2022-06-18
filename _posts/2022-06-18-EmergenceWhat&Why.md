@@ -4,6 +4,7 @@ title: 'Emergence: What & Why?'
 date: 2022-06-18 17:00:00 GMT+3
 categories: [Emergence, Development Log]
 tags: [Emergence, C++, GameDev]
+pin: true
 ---
 
 I've been developing [Emergence](https://github.com/KonstantinTomashevich/Emergence) project for more than a year. 
