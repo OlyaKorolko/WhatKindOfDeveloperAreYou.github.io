@@ -83,9 +83,9 @@ comments:
   active: giscus
   giscus:
     repo: WhatKindOfDeveloperAreYou/WhatKindOfDeveloperAreYou.github.io
-    repo_id:
-    category:
-    category_id:
+    repo_id: 107753546
+    category: GitHub Pages Comments
+    category_id: 37682815
 
 pwa:
   enabled: true   # the option for PWA feature
