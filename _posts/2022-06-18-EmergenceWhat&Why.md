@@ -2,7 +2,7 @@
 layout: post
 title: 'Emergence: What & Why?'
 date: 2022-06-18 14:00:00 GMT+3
-categories: [Emergence, Motivation]
+categories: [Emergence, Development Log]
 tags: [Emergence, C++, GameDev]
 ---
 
@@ -13,7 +13,7 @@ Today I will talk about how I decided to start this project.
 
 ### Motivation
 
-I've discovered data-driven programming when I joined [BattlePrime](https://www.battleprime.com/). 
+I've discovered data-driven programming when I joined [BattlePrime](https://www.battleprime.com/) team. 
 These guys were really cool professionals and I'm glad that I was working with them.
 After years of object oriented development I was really excited to try something new and quickly became true ECS zealot.
 But there were a lot of flaws in our ECS design too, not because people were unprofessional, but because designing 
@@ -34,18 +34,18 @@ Why do we even need entities, when everything could be records, loosely connecte
 So, I decided to write my own ECS framework with database-like style and ~~prostitutes~~ queries.
 
 Also, I was dissatisfied with some concepts, that were highly used in [BattlePrime](https://www.battleprime.com/) and
-some other ECS frameworks to stick to some additional rules while writing 
+some other ECS frameworks. Therefore I decided to stick to some additional rules while writing 
 [Emergence](https://github.com/KonstantinTomashevich/Emergence):
 
-- There should be no `virtual` methods, unless they are required by third party libraries. `Virtual`s are not only
+- There should be no `virtual` methods, unless they are required by third party libraries. `virtual`s are not only
   kind of slow from performance point of view, but also a source of unknown behaviour. By allowing to put almost
   everything into everything, `virtual`s might lead to strange bugs and unnecessary complications. I decided that I
-  want everything to be straighforward, therefore there should be no virtuals.
+  want everything to be straighforward, therefore there should be no `virtual`s.
 
-- Template usages should be minimized. There are some people out there that really really love templates, but usually
+- Template usage should be minimized. There are some people out there that really really love templates, but usually
   they ignore one significant drawback: compile time. One engineer in [BattlePrime](https://www.battleprime.com/) team
   calculated that including `<core/entity.h>` increases unit compile time by roughly 6 seconds. And `<core/entity.h>`
-  was, obsiously, included everywhere. In my opinion, long compile times make programming unbearable, therefore I
+  was, obviously, included everywhere. In my opinion, long compile times make programming unbearable, therefore I
   decided to limit template usage in order to have reasonable compile time.
 
 - Multithreaded code must be planned to be multithreaded from the beggining, not ad-hooked to be multithreaded after.
@@ -57,7 +57,7 @@ some other ECS frameworks to stick to some additional rules while writing
 
 There was also one additional thing I wanted to try out during 
 [Emergence](https://github.com/KonstantinTomashevich/Emergence) development: link time polymorphism. It sounded like
-something unbelievable: polymorphism without compile time and runtime drawbacks.
+something unbelievable: polymorphism without runtime performance and compile time drawbacks.
 
 ### Goals
 
@@ -65,8 +65,8 @@ After failing my previous attempt -- Temple -- I've decided that I need to under
 starting again from scratch.
 I planned to create several disconnected or loosly connected modules and built my own ECS on top of them.
 And that's exactly why I called this project Emergence: my ECS framework would emerge on top of different disconnected
-libraries, like consciousness on top of our neurons in emergent consciousness philosophy. Below I will provide list
-of the libraries and toolkits I planned:
+libraries, like consciousness on top of our neurons in emergent consciousness philosophy. Below I will provide the list
+of the libraries I planned:
 
 - CMake framework for link time polymorphism. I've planned many libraries and I needed good support from the build
   system for my beloved link time polymorphism. :)
@@ -98,9 +98,9 @@ of the libraries and toolkits I planned:
 
 ### What is it now?
 
-Almost a year and 3 month have passed since I started developing 
+Almost a year and three month have passed since I started developing 
 [Emergence](https://github.com/KonstantinTomashevich/Emergence), and I'm glad to say that almost all goals above
-are fullfilled. Just one thing is left to be done: I need to develop small proof-of-concept project to check
+are fullfilled. Just one thing left to be done: I need to develop small proof-of-concept project to check
 whether my ECS framework is good at doing what it needs to do. But, as it always happens, this last thing is
 much more complex than it sounds: to finish this project, I need to at least integrate physics and graphics. And
 I've already finished small PhysX and Urho3D integrations, but who knows what other integrations I might need later.
