@@ -110,5 +110,3 @@ I hope to finish proof-of-concept during next month or two and finally be able t
 to the public. Lets just hope that there won't be any complex obstacles to doing so.
 
 That's all for now. Hope you've enjoyed reading this article. :)
-
-*Link to Telegram discussion will be added soon...*
