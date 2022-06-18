@@ -98,7 +98,15 @@ of the libraries and toolkits I planned:
 
 ### What is it now?
 
-...
+Almost a year and 3 month have passed since I started developing 
+[Emergence](https://github.com/KonstantinTomashevich/Emergence), and I'm glad to say that almost all goals above
+are fullfilled. Just one thing is left to be done: I need to develop small proof-of-concept project to check
+whether my ECS framework is good at doing what it needs to do. But, as it always happens, this last thing is
+much more complex than it sounds: to finish this project, I need to at least integrate physics and graphics. And
+I've already finished small PhysX and Urho3D integrations, but who knows what other integrations I might need later.
+
+I hope to finish proof-of-concept during next month or two and finally be able to present my beloved ECS framework
+to the public. Lets just hope that there won't be any complex obstacles to doing so.
 
 That's all for now. Hope you've enjoyed reading this article. :)
 
