@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Hint: Global Initialization Order'
-date: 2022-06-18 19:00:00 GMT+3
+date: 2022-06-18 19:30:00 GMT+3
 categories: [Notes, Hints]
 tags: [Notes, C++]
 ---
