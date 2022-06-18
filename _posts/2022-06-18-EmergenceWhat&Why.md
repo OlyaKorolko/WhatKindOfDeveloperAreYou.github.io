@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Emergence: What & Why?'
-date: 2022-06-18 14:00:00 GMT+3
+date: 2022-06-18 17:00:00 GMT+3
 categories: [Emergence, Development Log]
 tags: [Emergence, C++, GameDev]
 ---
