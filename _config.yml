@@ -79,6 +79,14 @@ avatar: https://avatars.githubusercontent.com/u/19854474
 # boolean type, the global switch for ToC in posts.
 toc: true
 
+comments:
+  active: giscus
+  giscus:
+    repo: WhatKindOfDeveloperAreYou/WhatKindOfDeveloperAreYou.github.io
+    repo_id:
+    category:
+    category_id:
+
 pwa:
   enabled: true   # the option for PWA feature
 
