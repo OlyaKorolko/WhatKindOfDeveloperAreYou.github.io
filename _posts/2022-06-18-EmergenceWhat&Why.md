@@ -22,7 +22,7 @@ This is my first post on this blog, therefore I think it's a good idea to share 
 - There might be articles and tutorials on general topics, connected to game development, but I'm not sure yet.
 
 If you'd like to get notifications about new posts, subscribe to my
-[Telegram channel](https://t.me/WhatKindOfDeveloperAreYou). :)
+[Telegram channel](https://t.me/WhatKindOfDevAreYou). :)
 
 ### Motivation
 
