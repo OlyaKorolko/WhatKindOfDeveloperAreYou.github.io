@@ -82,7 +82,7 @@ toc: true
 comments:
   active: giscus
   giscus:
-    repo: WhatKindOfDeveloperAreYou/WhatKindOfDeveloperAreYou.github.io
+    repo: WhatKindOfDevAreYou/WhatKindOfDevAreYou.github.io
     repo_id: R_kgDOHhaiVA
     category: GitHub Pages Comments
     category_id: DIC_kwDOHhaiVM4CPv5_
