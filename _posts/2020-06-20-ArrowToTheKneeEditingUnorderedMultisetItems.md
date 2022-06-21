@@ -7,7 +7,7 @@ tags: [Arrow to the Knee, C++, Containers]
 ---
 
 Have you ever thought of editing `std::unordered_multiset` items while iterating over it? Does it even make sense?
-I will tell you why and how I tried doing it and what happened to my code afterwards in this post.
+I will tell you why and how I tried to do it and what happened to my code afterwards in this post.
 
 ### Getting into position
 

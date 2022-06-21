@@ -8,7 +8,7 @@ order: 1
 
 I'm a game developer by vocation rather than by choice.
 I have been in love with games since my childhood and have always been dreaming of developing my own!
-As an incurable perfectionist as I always strive for implementing impossibly ideal technical solutions.
+As an incurable perfectionist I always strive for implementing impossibly ideal technical solutions.
 Not without lots of failures, of course. :)
 
 ### About this blog
