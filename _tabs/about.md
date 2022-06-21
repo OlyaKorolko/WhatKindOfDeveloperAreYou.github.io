@@ -35,4 +35,4 @@ If you got the reference, here are your bonus karma points and major sanity debu
 
 ### How to get notified about new posts?
 
-Just subscribe to [Telegram channel](https://t.me/WhatKindOfDeveloperAreYou) created specially for this goal!
+Just subscribe to [Telegram channel](https://t.me/WhatKindOfDevAreYou) created specially for this goal!
