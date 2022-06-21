@@ -21,7 +21,7 @@ timezone: Europe/Minsk
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: What Kind Of Developer Are You?
+title: WHAT KIND OF DEV ARE YOU
 
 tagline: Personal blog above Game Development and related things
 
@@ -74,7 +74,7 @@ theme_mode:   # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: https://avatars.githubusercontent.com/u/19854474
+avatar: /assets/img/avatar.png
 
 # boolean type, the global switch for ToC in posts.
 toc: true
