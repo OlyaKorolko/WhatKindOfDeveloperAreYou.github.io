@@ -12,6 +12,18 @@ Or two years, if you count previous unfortunate attempt!
 I've decided to finally come out of the shadow and start writing about it. 
 Today I will talk about how I decided to start this project.
 
+This is my first post on this blog, therefore I think it's good idea to share what kinds of posts I plan to do later:
+- Emergence Development Log: Everything about [Emergence](https://github.com/KonstantinTomashevich/Emergence) project
+  development.
+- Emergence tutorials: Tutorials about how to work with [Emergence](https://github.com/KonstantinTomashevich/Emergence)
+  libraries once they're ready, of course. :)
+- Hints: Small notes about different aspects of programming.
+- Arrow to the Knee: name speaks for itself, I guess. These notes will be about shooting yourself with your code.
+- There might be articles and tutorials about general topics, connected to game development, but I'm not sure yet.
+
+If you'd like to get notifications about new posts, subscribe to my 
+[Telegram channel](https://t.me/WhatKindOfDeveloperAreYou). :)
+
 ### Motivation
 
 I've discovered data-driven programming when I joined [BattlePrime](https://www.battleprime.com/) team. 
