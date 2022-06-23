@@ -8,7 +8,7 @@ tags: [Emergence, ECS, GameDev]
 
 Entity is the first of three core principles of ECS design pattern. Nevertheless, I've decided that there should be
 no entities in [Emergence](https://github.com/KonstantinTomashevich/Emergence) ECS-like framework Celerity. 
-I will tell you how I arrived at this decision in this post.
+I will tell you how I've arrived at this decision in this post.
 
 ### ECS pattern
 
