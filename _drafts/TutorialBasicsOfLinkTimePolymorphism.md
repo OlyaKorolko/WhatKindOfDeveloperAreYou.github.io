@@ -1,4 +1,4 @@
- ---
+---
 layout: post
 title: 'Tutorial: Basics of link time polymorphism'
 categories: [Tutorials, Architecture]
