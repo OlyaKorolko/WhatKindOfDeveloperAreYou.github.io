@@ -146,7 +146,7 @@ material->restitution = 0.3f;
 material->density = 400.0f;
 ```
 
-### Quering by entity (object) id
+#### Quering by entity (object) id
 
 ```c++
 // This query allows user to gain read-only access to all records with 
@@ -165,7 +165,7 @@ for (auto shapeCursor = fetchShapeByObjectId.Execute (&objectId);
 }
 ```
 
-### Querying cooled down components
+#### Querying cooled down components
 
 ```c++
 // This query allows user to gain full write access to all records 
